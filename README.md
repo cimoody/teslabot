@@ -5,6 +5,12 @@ Model Serving with FourthBrain
 ## Learning Objective
 Deploy a production environment as a serverless application via AWS Lambda
 
+<img title="Setting up deployment" alt="Setting up deployment" src="/images/00_SettingDefaultArguementsFor_sam-deploy.png">
+
+<img title="Initializing deployment" alt="Initiating deployment" src="/images/01_Initiating_Deployment.png">
+
+<img title="Proof of deployment" alt="Proof of deployment" src="/images/02_SentimentFunctionIamRole.png">
+
 ## Interview Readiness Questions
 What is the definition of a serverless application?
 A serverless application is an application that runs on the cloud with infrastructure provided by the cloud service provider. It is for developers to work in a space that does not require an onsite server, does not require backend infrastructure involving computer maintenance or software maintenance, and does not require any work by the developer for scaling the application. It only requires a developer to write their code and deploy it to containers managed by the cloud service provided. Also, according to IBM, “developers never pay for idle capacity” referenced [What is Serverless Computing? | IBM](https://www.ibm.com/cloud/learn/serverless), which is the ideal business usage. It not only saves money on the backend (no need to buy or maintain a server), it is cost efficient when in use.
